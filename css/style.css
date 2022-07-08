@@ -9,9 +9,9 @@ background-position-y: bottom; */
     
 }
 .p{
-   /* border: 1px solid black;*/
-    background-color:  rgb(72, 72, 72);
-    color: #fff;
+   /* border: 1px solid black;
+    background-color:  rgb(72, 72, 72); */
+    color: #1a7d30;
     height: 40px;
     margin-top: 20px;
 }
@@ -26,9 +26,10 @@ background-position-y: bottom; */
     background: silver;
     }
 
-.p:hover{
-   background-color: #1a7d30;
-}
+    .p:hover{
+        background-color: silver;
+     }
+
 .container-fluid{
    
 }
@@ -275,14 +276,15 @@ text-center {
     color: #1a7d30;
 }
 .card{
-    height: 370px;
+    height: 570px;
     margin-top: auto;
     margin-bottom: auto;
-    width: 400px;
-    background-color: rgba(0,0,0,0.5) !important;
+    width: 570px;
+    background-color: rgba(0,0,0,0.3) !important;
     }
     
-    
+    .ig{
+margin-top: 95px;    }
     
     .card-header h3{
     color: white;
@@ -291,9 +293,9 @@ text-center {
     
     
     .input-group-prepend span{
-    width: 50px;
-    background-color: #FFC312;
-    color: black;
+    width: 40px;
+    background-color: #1a7d30;
+    color: white;
     border:0 !important;
     }
     
@@ -302,7 +304,12 @@ text-center {
     box-shadow: 0 0 0 0 !important;
     
     }
-    
+    .mar{
+        margin-bottom: 15px;
+        margin-left: 5px;
+    }
+    .dd{}
+   
     .remember{
     color: white;
     }
@@ -316,9 +323,12 @@ text-center {
     }
     
     .login_btn{
-    color: black;
-    background-color:#FFC312 !important;
+    color: white;
+    background-color:#1a7d30 !important;
     width: 100px;
+    float: right;
+    text-align: center;
+
     }
     
     .login_btn:hover{
@@ -334,5 +344,47 @@ text-center {
     margin-left: 4px;
     }
     .nn{
-        margin-left: 80px;
+        background-color: #ddd;
     }
+
+    .sticky {
+        position: fixed;
+        z-index: 99;}
+
+        .navbar-nav .nav-item a {
+            font-family: poppins,sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #1a7d30;
+            position: relative;
+        }
+        .navbar-expand-lg .navbar-nav {
+            flex-direction: row;
+        }
+        .menu-bg .navbar-nav .active {
+            color: #1a7d30!important;
+        }
+        .navbar-nav .nav-item {
+            margin-left: 25px;
+            position: relative;
+        }
+        ul li {
+            list-style: none;
+        }
+        .navbar-nav {
+            -webkit-box-align: center;
+            align-items: center;
+        }
+        .navbar-brand {
+            display: inline-block;
+            padding-top: 0.3125rem;
+            padding-bottom: 0.3125rem;
+            margin-right: 1rem;
+            font-size: 1.25rem;
+            line-height: inherit;
+            white-space: nowrap;
+        }
+        .ss{
+            margin-bottom : 30px;
+            text-align: center;
+        }
